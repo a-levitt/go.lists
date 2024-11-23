@@ -14,16 +14,20 @@ import "fmt"
 	fmt.Println(featuredPrices)
 }*/
 
-/*func main() {
+func main() {
 	prices := []float64{10.99, 8.99}
 	prices[1] = 9.99
 	newArr := prices[1:2]
 	fmt.Println(newArr)
 
 	fmt.Println(append(newArr, 5.99), prices)
-}*/
 
-func main() {
+	discountPrices := []float64{101.99, 80.99, 20.59}
+	newArr = append(newArr, discountPrices...)
+	fmt.Println(newArr)
+}
+
+/*func main() {
 	hobbies := []string{"Programming", "Anime", "Twitch.tv"}
 	fmt.Println(hobbies)
 	fmt.Println(hobbies[0])
@@ -34,6 +38,6 @@ func main() {
 	firstHobbies = firstHobbies[1:3]
 	fmt.Println(firstHobbies)
 	firstHobbies[1] = "streams"
-	firstHobbies = append(firstHobbies, "youtube")
+	firstHobbies = append(firstHobbies, "youtube", "Walking")
 	fmt.Println(firstHobbies)
-}
+}*/
