@@ -1,8 +1,8 @@
-package main
+package maps
 
 import "fmt"
 
-func main() {
+func maps() {
 	websites := map[string]string{
 		"Google":   "https://google.com",
 		"Facebook": "https://facebook.com",
@@ -10,5 +10,8 @@ func main() {
 
 	fmt.Println(websites["Go"])
 	websites["Amazon Web Services"] = "https://aws.com"
+	fmt.Println(websites)
+
+	delete(websites, "Google")
 	fmt.Println(websites)
 }
