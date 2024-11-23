@@ -1,8 +1,6 @@
-package main
+package lists
 
-import "fmt"
-
-/*func main() {
+/*func lists() {
 	var productNames [4]string
 	productNames = [4]string{"A book", "A T-shirt", "A notebook", "A desktop"}
 	prices := [4]float64{10.99, 9.99, 45.99, 20.0}
@@ -14,7 +12,7 @@ import "fmt"
 	fmt.Println(featuredPrices)
 }*/
 
-func main() {
+/*func lists() {
 	prices := []float64{10.99, 8.99}
 	prices[1] = 9.99
 	newArr := prices[1:2]
@@ -25,7 +23,7 @@ func main() {
 	discountPrices := []float64{101.99, 80.99, 20.59}
 	newArr = append(newArr, discountPrices...)
 	fmt.Println(newArr)
-}
+}*/
 
 /*func main() {
 	hobbies := []string{"Programming", "Anime", "Twitch.tv"}
