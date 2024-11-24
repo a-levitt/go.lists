@@ -21,4 +21,13 @@ func main() {
 	courseRatings["Vue"] = 4.7
 	courseRatings.output()
 	// fmt.Println(courseRatings)
+
+	for index, value := range userNames {
+		fmt.Println(index, value)
+	}
+
+	for key, value := range courseRatings {
+		fmt.Println("Course:", key)
+		fmt.Println("rating:", value)
+	}
 }
